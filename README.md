@@ -12,6 +12,10 @@ Create a simple program using at least 3 different languages. Use and demonstrat
 The program is a simple client to search for repositories on Github, Here are the requirements:
 
 #### Command Line Tool:
-
+- create an executable command line program that accepts standard input (STDIN), aka the stuff you type in after a command.
+- The program should have two options   
+  - search
+  - list
+- the search option is the defualt option, it has one parameter which is the query string
 
 #### GUI:
