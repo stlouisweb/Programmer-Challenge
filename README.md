@@ -16,6 +16,13 @@ The program is a simple client to search for repositories on Github, Here are th
 - The program should have two options   
   - search
   - list
-- the search option is the defualt option, it has one parameter which is the query string
+- the search option is the defualt option, it has one parameter which is the query string, this is an optional parameter
+  - the search option should use the github api to search for repositories and return the top 5 by number of stars
+  - if github api credentials are not set the user should get a warning with instructions on how to obtain and condigure credientials.
+ - All searches should be logged to some kind of database.
+- the list option should list all of the recent searches, displaying the time of searchm the query and the results
+
+
 
 #### GUI:
+Same as CMD but in the browser.   
